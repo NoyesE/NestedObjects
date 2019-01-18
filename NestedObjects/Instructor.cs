@@ -10,8 +10,14 @@ namespace NestedObjects
     {
         public string Name { get; set; }
 
+        /// <summary>
+        /// Work email for instructor
+        /// </summary>
         public string Email { get; set; }
 
+        /// <summary>
+        /// Office number for the instructor
+        /// </summary>
         public string Phone { get; set; }
     }
 }
